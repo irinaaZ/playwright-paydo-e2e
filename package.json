@@ -1,0 +1,17 @@
+{
+  "name": "paydo-e2e",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.10"
+  },
+  "scripts": {
+    "run:all-tests": "npx playwright test",
+    "run:ui-tests": "npx playwright test src/tests/ui/",
+    "run:api-tests": "npx playwright test src/tests/api/",
+    "show:html-report": "npx playwright show-report output"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
